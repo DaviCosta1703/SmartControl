@@ -17,7 +17,7 @@ div{
 }
 
 .img-perfil {
-     display: flex;
+    display: flex;
     position: fixed;
     top: 20px;
     right: 20px;
@@ -44,11 +44,12 @@ header h1{
     height: 3vh;
 }
    
-aside{
-     display: flex;
+.menu{
+    display: flex;
     flex-direction: column;
     position:static;
     width: 200px;
+    height: 590px;
     background: rgba(40, 40, 40, 0.25);
     border: 2px solid #191919;
     border-radius: 10px;
@@ -56,7 +57,7 @@ aside{
     border-radius: 10px;
 }
 
- .listas_li{
+.listas_li{
     margin: 50px;
     list-style: none;
     display: flex;
@@ -64,12 +65,11 @@ aside{
     gap: 10px;
     align-items: center;
     justify-content: center;
- }
-
-.listas_li{
-      list-style: none;
- }
-
- .listas_li {
+    list-style: none;
     margin-bottom: 12px;
+}
+
+.dashboard{
+    margin: 10px;
+    align-items: center;
 }
