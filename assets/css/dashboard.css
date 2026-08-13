@@ -45,7 +45,7 @@ header h1{
 }
    
 aside{
-    display: flex;
+     display: flex;
     flex-direction: column;
     position:static;
     width: 200px;
