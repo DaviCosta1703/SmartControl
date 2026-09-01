@@ -24,14 +24,20 @@ form{
     box-shadow: 0 8px 20px rgba(0,0,0,0.25);
 }
 
-form div{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-    align-content: center;
+.btn1 {
+    margin-top: 16px;
+    display: block;
+    width: 100%;
+    background-color: #ff2d2d;
+    color: white;
+    padding: 12px;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-bottom: 2px;
+    transition: 0.3s;
 }
 
-form div img{
+div img{
     width: 110px;
     height: 110px;
     border-radius: 50%;
@@ -49,71 +55,34 @@ label{
     display: block;
     text-align: left;
     margin-bottom: 6px;
-    margin-top: 12px;
+    margin-top: 11px;
     color: #222;
 }
 
 input{
     width: 100%;
-    padding: 12px;
+    padding: 11px;
     border: none;
     border-radius: 10px;
     margin-bottom: 10px;
     outline: none;
 }
 
-a{
-    text-decoration: none;
-}
-
-.senha{
-    display: block;
-    text-align: left;
-    margin-bottom: 20px;
-    font-style: italic;
-    color: #ff7272;
-
-
-}
-
-.login{
-    margin-top: 16px;
-    display: block;
-    width: 100%;
-    background-color: #ff2d2d;
-    color: white;
-    padding: 12px;
-    border-radius: 10px;
-    font-weight: bold;
-    margin-bottom: 2px;
-    transition: 0.3s;
-}
-
-.login:hover{
-    background-color:#b30000;
-}
-
-.cadastro {
-    margin-top: 16px;
-    display: block;
-    width: 100%;
-    background-color: #1f1f1f;
-    color: white;
-    padding: 12px;
-    border-radius: 10px;
-    font-weight: bold;
-}
-
-.cadastro:hover{
-    background-color: #000;
-}
-
 .pedro{
     display: block;
     text-align: left;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    margin: 10px;
     font-style: italic;
     color: rgba(255,255,255,0.6);
+}
+
+.esqueceu {
+    display: block;
+    text-align: center;
+    margin-bottom: 30px;
+    margin: 10px;
+    color: rgba(0, 0, 0, 0.752);
 }
 
 footer{
