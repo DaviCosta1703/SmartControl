@@ -42,3 +42,6 @@ if (elementoNome && elementoData) {
 
     setInterval(atualizarSaudacao, 1000);
 }
+
+// Parte do Campo de Busca
+
