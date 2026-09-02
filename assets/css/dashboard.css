@@ -65,6 +65,18 @@ aside {
     flex: 0 0 230px;
 }
 
+#nomeCompleto {
+    font-size: 18px;
+    font-weight: 5;
+    color: #ffffff;
+}
+
+#dataAtual {
+    font-size: 16px;
+    font-weight: 4;
+    color: #ffffff;
+}
+
 .menu {
     width: 100%;
     min-height: 400px;

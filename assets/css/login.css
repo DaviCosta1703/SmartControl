@@ -62,10 +62,6 @@ input{
     outline: none;
 }
 
-a{
-    text-decoration: none;
-}
-
 .senha{
     display: block;
     text-align: left;
@@ -76,7 +72,7 @@ a{
 
 }
 
-.login{
+.btn {
     margin-top: 16px;
     display: block;
     width: 100%;
@@ -93,7 +89,7 @@ a{
     background-color:#b30000;
 }
 
-.cadastro {
+.btn2 {
     margin-top: 16px;
     display: block;
     width: 100%;
