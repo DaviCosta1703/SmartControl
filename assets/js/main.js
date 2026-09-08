@@ -69,4 +69,3 @@ document.addEventListener("DOMContentLoaded", () => {
         setInterval(atualizarSaudacao, 1000);
     }
 });
-
